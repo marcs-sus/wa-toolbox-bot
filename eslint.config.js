@@ -5,6 +5,14 @@ import { defineConfig } from 'eslint/config'
 
 export default defineConfig([
   {
+    ignores: [
+      'node_modules/**',
+      '.wwebjs_auth/**',
+      '.wwebjs_cache/**',
+      'package-lock.json',
+    ],
+  },
+  {
     files: ['**/*.{js,mjs,cjs}'],
     plugins: { js },
     extends: ['js/recommended'],
