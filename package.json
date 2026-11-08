@@ -1,0 +1,24 @@
+{
+  "name": "wa-toolbox-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with multipurpose tools",
+  "main": "main.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "WhatsApp",
+    "Bot",
+    "whatsapp-web.js"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.1.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10"
+  }
+}
